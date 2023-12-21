@@ -1,0 +1,131 @@
+ 
+ 
+ .App
+ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20PX;
+
+  margin: 0 auto;
+ }
+ .container
+ {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 50vh;
+  padding: 5px;
+ }
+ .container h1{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .container1
+ {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 50px;
+ }
+ .container1 .input1
+ {
+  width: 40%;
+  height: 25px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+ }
+ .container1 .input2
+ {
+  width: 20%;
+  border-radius: 5px;
+  height: 25px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+ }
+ .container1  button{
+  width: 60px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: rgb(3, 13, 66);
+  border: none;
+  color: white;
+  border-radius: 5px;
+ }
+ .container1  button:hover{
+  background-color: rgb(13, 13, 159);
+ }
+ .container input:focus
+ {
+  background-color: aliceblue;
+ }
+
+
+
+ .container2
+ {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ }
+ .container3
+ {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(249, 234, 221);
+  width: 80%;
+  height: fit-content;
+  padding: 10px;
+ }
+ .container3 h4 , .container3 p{
+  font-size: 20px;
+  font-weight: bold;
+ }
+ .container3 i{
+  font-size: 25px;
+  color: rgb(187, 3, 3);
+  z-index: 1;
+ }
+ 
+ .btn
+ {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+ }
+ .btn button{
+  width: 100px;
+  padding:10px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: rgb(8, 139, 8);
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ @media screen and (max-width:600px) {
+  .container{
+    width: 100%;
+  }
+  .container3 h4 , .container3 p , .container3 i
+  {
+    font-size: 15px;
+  }
+  .container3
+  {
+    width: 90%;
+    padding: 0px;
+  }
+ }
